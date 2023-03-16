@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  background-color: #8a8484;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 16px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
@@ -10,10 +10,29 @@ body {
   /* font-family: Arial, Helvetica, sans-serif;*/
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+
 .avatar {
   width: 200px;
   border-radius: 28px;
   box-shadow: 19px 9px 14px 13px rgb(124 54 54 / 25%);
+}
+
+.info {
+  margin-bottom: 20px;
 }
 
 .info p {
@@ -36,10 +55,10 @@ body {
 /* .Social {
   /*background: #923939;
   /*padding: 15px;*/
-  /*padding 15px 40px*/
-  /*padding: 5px 10px 20px 100px;*/
- /* padding-top: 15px; */
-  /*padding-right: 20px;
+/*padding 15px 40px*/
+/*padding: 5px 10px 20px 100px;*/
+/* padding-top: 15px; */
+/*padding-right: 20px;
   padding-bottom: 25px;
   padding-left: 30px;
   margin: 15px;
@@ -49,7 +68,7 @@ body {
   border-right-color: aqua; */
 /* } */
 
-  /* эти свойства команды так же работают и для border и margin*/
+/* эти свойства команды так же работают и для border и margin*/
 
 
 /*.box-model > div {
@@ -60,3 +79,29 @@ body {
  width: 25%;
 box-sizing: border-box;
 }*/
+
+.bg-yellow {
+  background: #e2ee77;
+}
+
+.bg-green {
+  background: #63ac69;
+}
+
+.bg-red {
+  background: #e09f9f;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px
+}
