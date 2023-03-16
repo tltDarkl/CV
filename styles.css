@@ -109,6 +109,8 @@ box-sizing: border-box;
 }
 
 .list {
-    list-style: none;
-    padding: 0 20px;
+  padding: 0 20px;
+  list-style: none;
+  
+ 
 }
