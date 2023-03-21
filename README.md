@@ -1,2 +1,2 @@
-# CV
-study
+# CV - student
+Student
